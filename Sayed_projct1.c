@@ -165,7 +165,7 @@ void vehicle_sensors(char input)
 char traffic_light(char color)
 {
 	int vehicle_speed;
-	printf("enter the required color\n");
+	printf("enter the required color(G,R,O)\n");
 	scanf("   %c",&color);
 
 	switch(color )
